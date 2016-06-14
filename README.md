@@ -22,3 +22,7 @@ bash:
 Please create an issue here:
 
 https://github.com/vicksonzero/webbot/issues
+
+# License
+
+MIT
