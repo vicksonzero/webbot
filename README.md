@@ -16,3 +16,9 @@ bash:
 	pip install -r requirements.txt
 	python src/fill_in_forms.py
 	deactivate
+
+# Contributions
+
+Please create an issue here:
+
+https://github.com/vicksonzero/webbot/issues
