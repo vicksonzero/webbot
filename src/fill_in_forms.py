@@ -29,7 +29,8 @@ CLIENT_SECRET_FILE = "keys/client_secret_oauth.json"
 APPLICATION_NAME = 'Google Sheets API Python Quickstart'
 
 def get_credentials():
-	"""Gets valid user credentials from storage.
+	"""
+	Gets valid user credentials from storage.
 
 	If nothing has been stored, or if the stored credentials are invalid,
 	the OAuth2 flow is completed to obtain the new credentials.
@@ -78,8 +79,14 @@ def getSpreadsheetValues(spreadsheetId, rangeName):
 	return result
 
 def main():
+	"""
+	reads names from google sheet,
+	uses selenium to open a chrome google.com
+	input 5 random names from the sheet and search
+	"""
 
 	values = getSpreadsheetValues(google_sheet_presets.SHEET_ID, "C4:C29")
+	print("sheet result:")
 	print(values)
 
 	chromedriver = selenium_presets.CHROME_DRIVER
