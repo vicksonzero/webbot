@@ -1,0 +1,4 @@
+*
+!.gitignore
+!*_example.py
+!*__init__.py
